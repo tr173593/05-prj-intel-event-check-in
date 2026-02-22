@@ -25,7 +25,8 @@ body {
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(
+  background:
+    linear-gradient(
       135deg,
       rgba(0, 153, 219, 0.9) 0%,
       rgba(0, 104, 181, 0.9) 50%,
@@ -346,6 +347,49 @@ select {
   font-size: 15px;
   font-weight: 500;
   color: #475569;
+}
+
+/* Winner team highlighting */
+.team-card.winner {
+  background-color: #fff0c7 !important;
+  border: 3px solid #ffd700;
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+  transform: scale(1.05);
+}
+
+/* Attendee list */
+.attendee-list {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 2px solid #f1f5f9;
+}
+
+.attendee-list h3 {
+  color: #64748b;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+#attendeesList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+#attendeesList li {
+  padding: 10px 15px;
+  background-color: #f8fafc;
+  border-left: 4px solid #0071c5;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #475569;
+}
+
+#attendeesList li:hover {
+  background-color: #e8f4fc;
 }
 
 /* Mobile responsive */
